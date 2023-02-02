@@ -1,0 +1,56 @@
+# Main configuration for ARKDaemon and launch commands.
+[ARK]
+# Use 'appid = 376030' for ARK Classic, 'appid = 445400' for survival of the fittest
+appid = 376030
+
+# This is the ARK: Survival Evolved client. Used for workshop items
+ark_appid = 346110
+
+# Server IP, listen to every interface by default
+ip = 0.0.0.0
+
+# Gameserver port
+gameserver_port = 7777
+
+# Query port
+query_port = 27015
+
+# RCON Port
+rcon_port = 32330
+
+# Enable or disable BattlEye
+battleye = True
+
+# Maximum amount of players for the server
+players = 70
+
+# This is the hostname or server name of your server.
+SessionName = ARKDaemon Server
+
+# If you want a private server, put your password here!
+ServerPassword =
+
+# The rcon/server admin password. Change it. Seriously, change it.
+ServerAdminPassword = changeMe
+
+# The map to start the server with. If you want a custom map, enter the name here.
+Map = TheIsland
+
+# For custom maps you need to uncomment this and put your map mod id here.
+# Valhalla's map mod id as an example
+#mapmodid = 504122600
+
+# Mods are ordered like a python list. Example should get you started.
+# ['item1', 'item2', 'item3', 'etc...']
+#Mods = ['504122600']
+
+[ARK_WEB]
+admin_user = admin
+admin_pass = password
+api_key =
+ssl_crt =
+ssl_key =
+port = 5000
+
+[GameUserSettings]
+# Testing phase. Adding GameUserSettings parameters here...
